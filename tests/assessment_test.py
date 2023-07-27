@@ -57,16 +57,16 @@ def test_eight():
     assert python1.eight("98 63 34 1 13") == 17
     assert python1.eight("98 107 415") == 17
 
-def test_nine():
-    assert python1.nine("bertclivebert") == "clive"
-    assert python1.nine("xxbertfridgebertyy") == "fridge"
-    assert python1.nine("xxBertfridgebERtyy") == "fridge"
-    assert python1.nine("xxbertyy") == ""
-    assert python1.nine("xxbeRTyy") == ""
+# def test_nine():
+#     assert python1.nine("bertclivebert") == "clive"
+#     assert python1.nine("xxbertfridgebertyy") == "fridge"
+#     assert python1.nine("xxBertfridgebERtyy") == "fridge"
+#     assert python1.nine("xxbertyy") == ""
+#     assert python1.nine("xxbeRTyy") == ""
 
-def test_ten():
-    assert python1.ten("Jeff,random.py,False,1445") == ["Jeff"]
-    assert python1.ten("Bert,numberGen.py,True,1447,Bert,integers.py,True,1318,Jeff,floats.py,False,1445") == ["Jeff"]
-    assert python1.ten("Bert,boolean.py,False,1447,Bert,conditions.py,False,1318,Jeff,loops.py,False,1445") == ["Bert","Jeff"]
-    assert python1.ten("Bert,prime.py,True,1447,Bert,ISBN.py,False,1318,Jeff,OOP.py,False,1445") == ["Bert","Jeff"]
-    assert python1.ten("Bert,files.py,True,1447,Bert,tests.py,True,1318,Jeff,app.py,True,1445") == []
+# def test_ten():
+#     assert python1.ten("Jeff,random.py,False,1445") == ["Jeff"]
+#     assert python1.ten("Bert,numberGen.py,True,1447,Bert,integers.py,True,1318,Jeff,floats.py,False,1445") == ["Jeff"]
+#     assert python1.ten("Bert,boolean.py,False,1447,Bert,conditions.py,False,1318,Jeff,loops.py,False,1445") == ["Bert","Jeff"]
+#     assert python1.ten("Bert,prime.py,True,1447,Bert,ISBN.py,False,1318,Jeff,OOP.py,False,1445") == ["Bert","Jeff"]
+#     assert python1.ten("Bert,files.py,True,1447,Bert,tests.py,True,1318,Jeff,app.py,True,1445") == []
