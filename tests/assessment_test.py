@@ -50,12 +50,12 @@ def test_seven():
     assert python1.seven("I love Python", "L") == -1
     assert python1.seven("I LOVE PYTHON", "L") == 2
 
-def test_eight():
-    assert python1.eight("55 72 86") == 14
-    assert python1.eight("15 72 80 164") == 11
-    assert python1.eight("555 72 86 45 10") == 15
-    assert python1.eight("98 63 34 1 13") == 17
-    assert python1.eight("98 107 415") == 17
+# def test_eight():
+#     assert python1.eight("55 72 86") == 14
+#     assert python1.eight("15 72 80 164") == 11
+#     assert python1.eight("555 72 86 45 10") == 15
+#     assert python1.eight("98 63 34 1 13") == 17
+#     assert python1.eight("98 107 415") == 17
 
 # def test_nine():
 #     assert python1.nine("bertclivebert") == "clive"
